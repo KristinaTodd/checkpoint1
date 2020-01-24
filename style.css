@@ -7,9 +7,21 @@
   background: linear-gradient(216deg, rgba(8,20,121,1) 13%, rgba(120,158,181,1) 59%, rgba(197,210,224,1) 75%, rgba(246,252,252,1) 92%);
 }
 
+.btn-custom {
+  border-radius: 4px;
+  background-color: teal;
+  border: 0;
+  width: 10rem;
+  
+}
 
-.round-image{
-  border-radius: 50%;
+.bg-trans {
+  background-color: transparent;
+}
 
+.col-12.col-md-5.align-items-end{
+  display: flex;
 
 }
+
+
