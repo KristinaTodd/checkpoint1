@@ -1,0 +1,8 @@
+* {
+  outline: solid;
+}
+
+.bg-purple {
+  background: rgb(89,8,121);
+background: linear-gradient(216deg, rgba(89,8,121,1) 0%, rgba(161,120,181,1) 55%, rgba(246,252,252,1) 55%);
+}
