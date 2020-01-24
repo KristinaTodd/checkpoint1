@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <header class="container-fluid bg-purple">
+  <header class="container-fluid bg-blue">
     <div class="row">
       <div class="col-12">
         <nav class="navbar navbar-expand-lg navbar-light bg-transparant">
@@ -38,16 +38,68 @@
           </div>
         </nav>
       </div>
-      <div class="col-12 p-3">padded area-blank</div>
-      <div class="col-12 col-md-5">text area</div>
-      <div class="col-12 col-md-7">video area</div>
+      <div class="col-12 p-3"></div>
+      <div class="col-12 col-md-5 align-items-end">
+        <div class="row">
+          <div class="col-12">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat cum unde iusto eveniet
+            consequatur eos quod quo reprehenderit rem. Commodi vel quae ex unde ab laborum illum quibusdam, aut fugit?
+          </div>
+          <div class="col-12 align-center"><button>Click Here</button></div>
+        </div>
+      </div>
+      <div class="col-12 col-md-7">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Cannon Beach 1.jpg" class="d-block w-100" alt="Cannon Beach">
+            </div>
+            <div class="carousel-item">
+              <img src="Estes Park 1.jfif" class="d-block w-100" alt="Estes Park">
+            </div>
+            <div class="carousel-item">
+              <img src="Lake Tahoe 1.jpg" class="d-block w-100" alt="Lake Tahoe">
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="col-12 p-3">padded area-blank</div>
     </div>
   </header>
 
   <section class="container-fluid">
-    <div class="row bg-warning">
-      card area with circle images
+    <div class="row bg-white ">
+      <div class="col-12 ">
+        <div class="card-deck ">
+          <div class="card border-0">
+            <img src="https://picsum.photos/200" class="card-img-top round-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+              <p class="card-text text-center">This is a longer card with supporting text below as a natural lead-in to
+                additional
+                content.
+                This content is a little bit longer.</p>
+            </div>
+          </div>
+          <div class="card border-0">
+            <img src="https://picsum.photos/200" class="card-img-top round-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+              <p class="card-text text-center">This card has supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+          <div class="card border-0">
+            <img src="https://picsum.photos/200" class="card-img-top round-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Card title</h5>
+              <p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to
+                additional
+                content.
+                This card has even longer content than the first to show that equal height action.</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </div>
 
@@ -62,12 +114,13 @@
 
     <div class="row bg-primary">
       <div class="col-12 p-3">padded area-blank</div>
-      <div class="col-12 bg-danger">pink line break</div>
+
     </div>
 
   </section>
 
   <footer class="bg-dark text-white">
+    <!-- /*TODO  border needs to be different color*/ -->
     <div class="col-12 p-3">footer area with 2 elements on the sides</div>
 
   </footer>

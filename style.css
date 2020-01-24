@@ -1,8 +1,15 @@
-* {
+/* * {
   outline: solid;
+} */
+
+.bg-blue {
+  background: rgb(8,20,121);
+  background: linear-gradient(216deg, rgba(8,20,121,1) 13%, rgba(120,158,181,1) 59%, rgba(197,210,224,1) 75%, rgba(246,252,252,1) 92%);
 }
 
-.bg-purple {
-  background: rgb(89,8,121);
-background: linear-gradient(216deg, rgba(89,8,121,1) 0%, rgba(161,120,181,1) 55%, rgba(246,252,252,1) 55%);
+
+.round-image{
+  border-radius: 50%;
+
+
 }
