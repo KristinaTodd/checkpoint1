@@ -3,13 +3,30 @@
 } */
 
 .bg-blue {
-  background: rgb(8,20,121);
-  background: linear-gradient(216deg, rgba(8,20,121,1) 13%, rgba(120,158,181,1) 59%, rgba(197,210,224,1) 75%, rgba(246,252,252,1) 92%);
+  background-image: url(misty-mountains-watercolor.jpg)
+}
+
+.bg-card-deck{
+  background-color: rgb(15, 108, 170);
+}
+
+.bg-grey {
+  background-color: rgb(177, 211, 231);
+}
+
+.logo {
+  font-size: xx-large;
+  color: white;
+}
+
+.logo-image {
+  width: 20vw;
+  height: 25vh;
 }
 
 .btn-custom {
   border-radius: 4px;
-  background-color: teal;
+  background-color: rgb(42, 197, 197);
   border: 0;
   width: 90%;
   bottom: -1rem;
@@ -38,3 +55,4 @@
 .buffer {
   height: 10vh;
 }
+
