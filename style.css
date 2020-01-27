@@ -12,6 +12,11 @@
   font-size: xx-large;
 }
 
+.nav-bar-toggler {
+  color: rgb(15, 108, 170);
+
+}
+
 .bg-grey {
   background-color: rgb(177, 211, 231);
 }
